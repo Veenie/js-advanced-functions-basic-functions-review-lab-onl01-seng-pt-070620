@@ -25,3 +25,10 @@ const Calculator = {add: function(){return 1 + 3},
 subtract: function(){return 1 - 3}, multiply: function(){return 1 * 3},
 divide: function(){return 10 / 5}
 }
+
+//above is an object saved as local variable, can return the functions as Calculator.divide, etc.
+
+
+function actionApplyer(i, arr){
+  return i
+}
