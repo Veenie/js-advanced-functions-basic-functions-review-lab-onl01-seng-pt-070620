@@ -30,7 +30,9 @@ divide: function(){return 10 / 5}
 
 
 function actionApplyer(a, arr){
-  
+   for (let i = 0; i < ray.length; i++ ){
+    a = ray[i](a)
+  }
   
   return a
 }
