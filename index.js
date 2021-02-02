@@ -21,4 +21,7 @@ function wrapAdjective(flair="*"){
 
 //wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programmer%!"
 
-const Calculator = {add: 1 + 3, subtract: 1 - 3, multiply: 1 * 3}
+const Calculator = {add: function(){return 1 + 3}, 
+subtract: function(){return 1 - 3}, multiply: function(){return1 * 3}
+  
+}
