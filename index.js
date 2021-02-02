@@ -29,6 +29,8 @@ divide: function(){return 10 / 5}
 //above is an object saved as local variable, can return the functions as Calculator.divide, etc.
 
 
-function actionApplyer(i, arr){
-  return i
+function actionApplyer(a, arr){
+  
+  
+  return a
 }
