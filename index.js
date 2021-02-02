@@ -17,3 +17,4 @@ function wrapAdjective(flair="*"){
   }
 }
 
+//above is an example of scope chain, allows functions within functions to access their parent scopes' variables.
