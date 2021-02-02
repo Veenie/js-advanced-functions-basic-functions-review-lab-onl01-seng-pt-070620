@@ -4,4 +4,6 @@ function saturdayFun (activity="roller-skate"){
   return `This Saturday, I want to ${activity}!`
 }
 
-//saturdayFun is a declaration, () is calling function
+//saturdayFun is a declaration, () calls function after declaration, tho you can reference saturdayFun higher in the code and it will work, this is hoisting. "roller-skate" is acting as default arg.
+
+
