@@ -30,9 +30,11 @@ divide: function(){return 10 / 5}
 
 
 function actionApplyer(a, arr){
-   for (let i = 0; i < ray.length; i++ ){
-    a = ray[i](a)
+   for (let i = 0; i < arr.length; i++ ){
+    a = arr[i](a)
   }
   
   return a
 }
+
+//a is starting point argument, arr is an array, then we run a for loop
