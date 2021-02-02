@@ -7,3 +7,6 @@ function saturdayFun (activity="roller-skate"){
 //saturdayFun is a declaration, () calls function after declaration, tho you can reference saturdayFun higher in the code and it will work, this is hoisting. "roller-skate" is acting as default arg.
 
 
+function mondayWork (activity="go to the office"){
+  return `This Saturday, I will ${activity}!`
+}
